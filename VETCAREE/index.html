@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetCare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+ <script src="../Celeste/JS/function.js">
+
+
+ </script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>    
+
+<body>
+
+   
+
+        <div class="head">
+
+
+            <div class="logo">
+            <a href="#">VetCare</a>
+        </div>
+
+
+     <nav class="navbar">
+           <a href="#Inicio">Inicio</a>
+          <a href="#Productos">Productos</a>
+          <a href="#Nosotros">Quienes somos</a>
+         <a href="#Contacto">Contacto</a>
+     </nav>
+
+
+
+     </div>
+
+    <div id="Inicio">
+      <header class="content header">
+         <h2 class="title">Inicio</h2>
+            
+
+    
+
+      </div>
+
+     </header>
+
+
+     <div id="Productos">
+      <section class="content-productos">
+          <h2 class="title">Productos</h2>
+       
+          <p>
+            <a class="btn-ver-productos" href="productos.html">Ver productos</a>
+          </p>
+
+
+          <div class="box-container">
+              <div class="box">
+                <strong>  <i class="fas fa-paw"></i> </strong>
+                  <h3>Alimentos balanceados</h3>
+                  <p>Productos de amplia variedad y calidad, para que no dejes de cuidar a los que más queres! </p>
+              </div>
+
+              <div class="box">
+                  <strong><i class="fas fa-book-open"></i></strong>
+                  <h3>Testimonios</h3>
+                  <p>Que mejor que nuestros propios clientes para hablar de nuestra atención y acompañamiento</p>
+              </div>
+
+              <div class="box">
+              <strong><i class="fas fa-handshake"></i></strong> 
+                  <h3>Atención personalizada</h3>
+                  <p>Te asesoramos de principio a fin para aclarar todas tus dudas!</p>
+              </div>
+          </div>
+      </section>
+  </div>
+
+
+
+    <div id="Nosotros">
+
+     <section class="content price">
+
+       <article class="price">
+
+        <h2 class="title">Nosotros</h2>
+         <p> Descubre nuestra misión y vision en el ámbito del cuidado integral de mascotas
+         </p>
+         <a class="btn" id="button-popup">Conocer más</a></button>
+
+       </article>
+
+     </section>
+
+    </div>
+
+
+</div>
+
+
+
+<div class="popup" id="popup">
+  <div class="popup-content">
+      <strong> Bienvenido! </br> </br>  </strong>
+      Te contamos que somos una empresa familiar,  <strong>con más de 10 años de experiencia en el mercado</strong>,
+      en este tiempo hemos estado ayudando a los dueños de mascotas a asegurar que sus adorables perros y gatos disfruten de una vida más larga,<strong> saludable y feliz.</strong> </br></br>
+       </br>
+       Nuestra filosofía principal incluye :<strong> Promover el cuidado responsable de mascotas </strong>,la participación comunitaria y fundamentalmente <strong>fomentar el vínculo positivo entre las personas y sus mascotas</strong>.
+      </p>
+  
+    <button class="button-close">Volver</button>
+  </div>
+</div>
+
+
+
+
+<div id="Contacto">
+    <section class="content contact">
+
+      <h2>CONTACTO</h2>
+      <p><i class="fas fa-phone"></i> 42578890</p>
+
+      <p><i class="fas fa-envelope"></i> vetcare@contacto.com</p>
+
+    
+
+
+      <figure class="map"> <img src="img/mapa.png" height="220 px" width="100%" alt="map"></figure>
+    </section>
+  </div>
+  
+
+ 
+
+
+<script>
+document.getElementById("button-popup").addEventListener("click", function() {
+  document.getElementById("popup").classList.add("show");
+});
+
+document.querySelector(".button-close").addEventListener("click", function() {
+  document.getElementById("popup").classList.remove("show");
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,390 @@
+/*nav{
+    height: 60px;
+    background-color:#17181C;
+    text-align: center;
+  }
+
+  nav ul{
+    list-style: none;
+    display: inline-block;
+    padding:18px;
+ }
+
+ nav ul li{
+     float: left;
+     margin-top: 20px;
+ }
+
+ nav nav-item{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+}
+
+nav ul li a:hover{
+    background-color: #929fb3;
+  } */
+
+  
+
+
+ *{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   vertical-align: baseline;
+   font: size 100%; 
+  }
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+
+}
+
+ol{
+
+  list-style: none;
+
+}
+
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #0e153a;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar {
+ display: flex;
+margin-right: 10px;
+
+}
+
+
+.logo {
+margin-left: 30px;
+
+}
+
+
+.logo a {
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+font-size: 20px;
+}
+
+.navbar a{
+
+  display: fixed;
+  padding: 23px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+ }
+
+ .navbar a:hover {
+  background:#0e153a;
+
+ }
+
+ .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.header{
+
+height: 60vh !important;
+background-color: #c5e3f6;
+background: url(../img/perrofondo.jpg) no-repeat;
+background-size: cover;
+}
+
+.title {
+margin-bottom: 40px;
+font-size: 50px;
+font-weight: 600;
+text-transform: uppercase;
+color: rgb(7, 0, 48);
+
+
+}
+
+.Nosotros p{
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+p{
+margin-bottom: 40px;
+font-size: 18px;
+color: black;
+padding: 0 100px;
+
+
+
+}
+
+/* boton*/
+
+
+.btn{
+ display: inline-block;
+margin-top: 15px;
+padding: 10px  40px;
+border: 2px solid#3d6cb9;
+color: rgb(1, 0, 4);
+text-decoration: none;
+background:#3d6cb9;
+font-weight: bold;
+margin: 0;
+border-radius: 5px;
+  
+}
+
+
+
+
+/* boton*/
+
+
+.btn:hover{
+
+background:none;
+
+}
+
+.btn-home {
+
+display: flex;
+}
+
+/* boton A -->ENLACE*/
+
+.btn-home a {
+
+margin: 0 10px;
+
+}
+
+
+.content {
+
+height: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 0;
+}
+
+#productos{
+  margin-bottom: 0;
+}
+.content-productos {
+ padding: 30px;
+ background: #c5e3f6;
+
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.box-container .box {
+
+height: 14rem;
+width: 18rem;
+background: #3d6cb9;
+text-align: center;
+border-radius: 1rem;
+box-shadow: 0 .3 5rem rgba(0, 0,0, .5);
+margin: 2rem
+}
+
+.box-container .box i {
+
+height: 3rem;
+width: 3rem ;
+line-height: 3rem;
+text-align: center;
+border-radius: 50%;
+color: #fff;
+background-color: #000524;
+font-size: 2rem;
+margin: 1rem;
+}
+
+
+
+.box-container .box h3 {
+
+font-size: 20px;
+color:#000524;
+margin-bottom: 10px; 
+}
+
+.box-container .box p {
+font-size: 16px;
+padding:  0 15px;
+
+
+
+}
+
+
+
+
+.Nosotros {
+  background:#c5e3f6;
+  
+}
+
+.price {
+
+  background: url(../img/mascotero1.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  margin-top: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.contact{
+padding-top: 70px;
+background: #0e153a;
+padding-bottom: 0;
+font-size: 33px;
+color: antiquewhite;
+height: auto;
+
+}
+
+.contact p {
+
+color: antiquewhite;
+
+
+}
+
+
+.contact h2 {
+  margin-bottom: 50px;
+}
+
+.contact i {
+  margin-right: 10px;
+}
+
+
+
+
+
+.btn-ver-productos {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3d6cb9;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-ver-productos:hover {
+  background-color: #2d5496;
+}
+
+section.Nosotros {
+  margin-bottom: 0;
+}
+
+section.content.price {
+  margin-top: 0;
+}
+
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.popup-content {
+  background-color: #c5e3f6;
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  
+  
+}
+
+.popup.show {
+  opacity: 1;
+  pointer-events: auto;
+  display: flex;
+}
+
+
+.popup-content button {
+  padding: 10px 20px;
+  background-color: #3d6cb9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.popup-content button:hover {
+  background-color: #2d5496;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .box-container .box {
+    width: 100%; 
+  }
+}
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
